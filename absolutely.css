@@ -3,9 +3,23 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
+	
+}
+
+nav {
 	background-image: url(bar1.png);
 	background-repeat: repeat-x;
+	margin: 0px;
 }
+
+nav:hover {
+	background-image: url(bar2.png)
+}
+
+.links {
+	color: grey;
+}
+
 .all {
 	text-align : left;
 	width : 700px;
@@ -42,4 +56,49 @@ h1, p {
 
 #humanfactor:hover span {
 	visibility: visible;
+}
+
+ul {
+	display: none;
+}
+
+#title {
+	position: relative;
+	bottom: 170px;
+	left: 10px;
+}
+
+#saw {
+	position: relative;
+	right: 350px;
+	top: 40px;
+}
+
+#hammer  {
+	position: relative;
+	bottom: 70px;
+	right: 25px;
+}
+
+#pincers {
+	position: relative;
+	left: 560px;
+	bottom: 20px;
+}
+
+#screwdriver {
+	position: relative;
+	left: 350px;
+	bottom: 140px;
+}
+
+#toolbox {
+	position: relative;
+	right: 180px;
+	bottom: 20px;
+}
+
+#toolbox:hover ul {
+	display: inline;
+	position: absolute;
 }
