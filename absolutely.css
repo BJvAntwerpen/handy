@@ -60,6 +60,21 @@ h1, p {
 
 ul {
 	display: none;
+	background-color: white;
+	list-style-type: none;
+	width: 100px;
+}
+
+li {
+	border: 2px solid black;
+}
+
+li:hover {
+	background-color: rgb(255,255,170);
+}
+
+a {
+	text-decoration: none;
 }
 
 #title {
@@ -74,10 +89,22 @@ ul {
 	top: 40px;
 }
 
+#saw:hover {
+	position: relative;
+	right: 330px;
+	top: 50px;
+}
+
 #hammer  {
 	position: relative;
 	bottom: 70px;
 	right: 25px;
+}
+
+#hammer:hover {
+	position: relative;
+	bottom: 55px;
+	right: 35px;
 }
 
 #pincers {
@@ -86,10 +113,22 @@ ul {
 	bottom: 20px;
 }
 
+#pincers:hover {
+	position: relative;
+	left: 540px;
+	bottom: 18px;
+}
+
 #screwdriver {
 	position: relative;
 	left: 350px;
 	bottom: 140px;
+}
+
+#screwdriver:hover {
+	position: relative;
+	left: 330px;
+	bottom: 130px;
 }
 
 #toolbox {
@@ -101,4 +140,6 @@ ul {
 #toolbox:hover ul {
 	display: inline;
 	position: absolute;
+	right: 180px;
+	top: -20px;
 }
